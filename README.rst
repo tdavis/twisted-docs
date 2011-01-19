@@ -5,3 +5,6 @@ A usually-up-to-date build of this documentation is available at:
 
 http://docs.recursivedream.com/twisted/
 
+
+.. _Twisted: http://twistedmatrix.com
+
