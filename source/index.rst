@@ -48,6 +48,24 @@ systems. If you're not ready to :doc:`start understanding Twisted
 <suiting-up>`, you should read about :ref:`Twisted's advantages
 <advantages>` and check out :ref:`who's using Twisted <success-stories>`.
 
+
+Ready to Get Started?
+---------------------
+
+Once you're intrigued enough to start down the *Twisted Path*, you should begin
+by :doc:`suiting up <suiting-up>`—that is, become familiar with Twisted's basic
+structure, philosophies, and quirks. We know all you probably just want to find
+out how to solve a specific problem with Twisted (or find out if one of its
+:doc:`projects <projects/index>` solves it for you), but a little effort up
+front will go a long way in understanding the tutorials and code samples you're
+*really* looking for.
+
+Properly attired (or sufficiently stubborn, as the case may be), you'll be ready
+to :doc:`dive in <diving-in>` (to continue the lame water-based analogy).
+You'll learn how to implement increasingly complex applications using Twisted
+and eventually move on to ...
+
+
 Table of Contents
 =================
 
