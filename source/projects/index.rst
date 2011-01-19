@@ -13,15 +13,15 @@ Active Projects
 .. toctree::
    :maxdepth: 1
 
-   core
-   conch
-   mail
-   names
-   news
-   pair
-   runner
-   trial
-   web
-   web2
-   words
+   core/index
+   conch/index
+   mail/index
+   names/index
+   news/index
+   pair/index
+   runner/index
+   trial/index
+   web/index
+   web2/index
+   words/index
 

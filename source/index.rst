@@ -48,14 +48,28 @@ systems. If you're not ready to :doc:`start understanding Twisted
 <suiting-up>`, you should read about :ref:`Twisted's advantages
 <advantages>` and check out :ref:`who's using Twisted <success-stories>`.
 
+Table of Contents
+=================
+
+Base Documentation
+------------------
+
 .. toctree::
    :maxdepth: 2
 
    why-twisted
    suiting-up
    diving-in
-   projects/index
    meta
+
+Project Documentation
+---------------------
+
+.. toctree::
+   :maxdepth: 3
+
+   projects/index
+
 
 Indices and tables
 ==================
