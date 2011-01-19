@@ -14,13 +14,14 @@ remains Python's best solution for a host of network-related tasks. You can
 Why Use Twisted?
 ----------------
 
-Like any piece of software, we must first answer why you would use Twisted. The
-short answer is: **if you need a flexible, stable, well-tested framework
-for creating highly-scalable Internet-based services, you need Twisted.** But
-Twisted is more than a Framework: it's also a **library of components** built
-using the very tools it gives you—tools *you* can use to easily and rapidly
-create your own network-based services. Here are just a few examples of built-in
-protocol implementations that include both server and client:
+As with any piece of software, we must first answer why you would use Twisted.
+One answer is: **if you need a flexible, stable, well-tested framework for
+creating highly-scalable Internet-based services, you need Twisted.** But
+Twisted is more than a Framework! It's also a **comprehensive library of
+components** built using the very tools it gives you—tools *you* can use to
+easily and rapidly create your own network-based services. Here are just a few
+examples of built-in protocol implementations that include both server and
+client:
 
 * SSH/SFTP
 * HTTP
@@ -47,6 +48,11 @@ explain it much less convey how *you* can use it to create better software
 systems. If you're not ready to :doc:`start understanding Twisted
 <suiting-up>`, you should read about :ref:`Twisted's advantages
 <advantages>` and check out :ref:`who's using Twisted <success-stories>`.
+
+**SPOILER**: Twisted is one-of-a-kind and trusted by the likes of :ref:`NASA
+<success-nasa>`, :ref:`Lucas Films <success-lucas>`, :ref:`Justin.tv
+<success-justintv>`, :ref:`TweetDeck <success-tweetdeck>` and thousands of other
+companies and individuals!
 
 
 Ready to Get Started?
