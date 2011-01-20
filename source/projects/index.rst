@@ -6,10 +6,6 @@ libraries built on top of itself. This section contains documentation on each
 major Twisted project, including *Twisted Core*, the foundation for everything
 else.
 
-
-Active Projects
----------------
-
 .. toctree::
    :maxdepth: 1
 
