@@ -9,7 +9,9 @@ engine*. In simple terms, this makes Twisted the ideal solution for creating a
 variety of Internet servers and clients—from HTTP servers to IRC clients and
 everything in between. Still under active development after a decade, Twisted
 remains Python's best solution for a host of network-related tasks. You can
-:ref:`read more about Twisted <about-twisted>`.
+:ref:`read more about Twisted <about-twisted>` or just keep reading this page to
+learn how it can help you.
+
 
 Why Use Twisted?
 ----------------
@@ -37,17 +39,10 @@ chat bot, control machine processes, or a host of other things, Twisted has you
 covered. And thanks to its flexibility, you can also *change* any of these
 components to suit your specific needs using just Python!
 
-This only scratches the surface of Twisted's usefulness, though.
-
-
-Still Not Convinced?
---------------------
-
-That's okay! Twisted is *so* big and *so* malleable that it's often hard to
-explain it much less convey how *you* can use it to create better software
-systems. If you're not ready to :doc:`start understanding Twisted
-<suiting-up>`, you should read about :ref:`Twisted's advantages
-<advantages>` and check out :ref:`who's using Twisted <success-stories>`.
+This only scratches the surface of Twisted's usefulness, though. To learn more
+about what makes Twisted uniquely useful and generally great, you should read
+about :ref:`Twisted's advantages <advantages>` and check out :ref:`who's using
+Twisted <success-stories>`.
 
 **SPOILER**: Twisted is one-of-a-kind and trusted by the likes of :ref:`NASA
 <success-nasa>`, :ref:`Lucas Films <success-lucas>`, :ref:`Justin.tv
@@ -55,44 +50,68 @@ systems. If you're not ready to :doc:`start understanding Twisted
 companies and individuals!
 
 
-Ready to Get Started?
----------------------
+Still With Us?
+--------------
 
-Once you're intrigued enough to start down the *Twisted Path*, you should begin
-by :doc:`suiting up <suiting-up>`—that is, become familiar with Twisted's basic
-structure, philosophies, and quirks. We know all you probably just want to find
-out how to solve a specific problem with Twisted (or find out if one of its
-:doc:`projects <projects/index>` solves it for you), but a little effort up
-front will go a long way in understanding the tutorials and code samples you're
-*really* looking for.
-
-Properly attired (or sufficiently stubborn, as the case may be), you'll be ready
-to :doc:`dive in <diving-in>` (to continue the lame water-based analogy).
-You'll learn how to implement increasingly complex applications using Twisted
-and eventually move on to ...
+That's great! Twisted is *so* big and *so* malleable that it takes a good deal
+of time to properly explain. The good news is, you don't need to understand
+all of it in order to use it *right now* to solve a bunch of common problems.
 
 
-Table of Contents
-=================
+Task-based Documentation
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-Base Documentation
-------------------
+Below is a list of *Tasks*. Each Task is something Twisted already has a core
+project for. In many cases, a few lines of code will get you a full solution to
+your problem. In other cases, a few lines will get you a long way there.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   why-twisted
-   suiting-up
-   diving-in
-   meta
+   projects/web/tasks/serve
+
 
 Project Documentation
----------------------
+^^^^^^^^^^^^^^^^^^^^^
+
+If you don't see your specific task on the list but some of them fall into the
+general protocol (or other ballpark) you're interested in, you should consult
+the appropriate Project Documentation:
 
 .. toctree::
    :maxdepth: 3
 
    projects/index
+
+
+Base Documentation
+^^^^^^^^^^^^^^^^^^
+
+If a Twisted solution to your problem still eludes you, it's likely you'll need
+to implement your own Application, Protocol, or other chunk of code. The first
+step is to get to know Twisted (*suiting up*). Once you've got the core
+concepts, you'll have no trouble bending it to your whim (*diving in*)!
+
+.. toctree::
+   :maxdepth: 2
+
+   suiting-up
+   diving-in
+
+TODO: Needs fleshing.
+
+
+Everything Else
+---------------
+
+Everything else you wanted (or didn't want) to know about Twisted can be found
+below.
+
+.. toctree::
+   :maxdepth: 2
+
+   why-twisted
+   meta
 
 
 Indices and tables
@@ -105,3 +124,4 @@ Indices and tables
 
 .. _Twisted: http://twistedmatrix.com
 .. _Python: http://python.org
+
