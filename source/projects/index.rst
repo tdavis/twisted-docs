@@ -21,3 +21,5 @@ else.
    web2/index
    words/index
 
+TODO: Descriptive project titles
+
