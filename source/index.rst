@@ -4,7 +4,7 @@ Twisted Documentation
 What is Twisted?
 ----------------
 
-Twisted_ is Python_'s oldest and most comprehensive *asynchronous networking
+Twisted_ is Python_'s oldest and most comprehensive *event-driven networking
 engine*. In simple terms, this makes Twisted the ideal solution for creating a
 variety of Internet servers and clients—from HTTP servers to IRC clients and
 everything in between. Still under active development after a decade, Twisted
@@ -53,9 +53,10 @@ companies and individuals!
 Still With Us?
 --------------
 
-That's great! Twisted is *so* big and *so* malleable that it takes a good deal
-of time to properly explain. The good news is, you don't need to understand
-all of it in order to use it *right now* to solve a bunch of common problems.
+That's great! Twisted is *so* big and used in such a wide variety of ways that
+it takes a good deal of time to fully explore. The good news is, you don't need
+to know all of Twisted in order to use it *right now* to solve a bunch of common
+(and uncommon) problems.
 
 
 Task-based Documentation
@@ -63,12 +64,14 @@ Task-based Documentation
 
 Below is a list of *Tasks*. Each Task is something Twisted already has a core
 project for. In many cases, a few lines of code will get you a full solution to
-your problem. In other cases, a few lines will get you a long way there.
+your problem. In other cases, a complex task can be accomplished by combining
+numerous smaller solutions. Here some common tasks we've chosen to highlight;
+each individual Twisted Project has its own tutorials.
 
 .. toctree::
    :maxdepth: 1
 
-   projects/web/tasks/serve
+   projects/web/tasks/serve/index
 
 
 Project Documentation
